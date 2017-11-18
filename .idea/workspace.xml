@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b355063e-f8f9-4fdd-a169-cea0941cc8df" name="Default" comment="added a vCard">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/me.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OneSignalSDKUpdaterWorker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OneSignalSDKWorker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cake128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/manifest.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/icons/facebook_square.svg" afterPath="$PROJECT_DIR$/icons/fb.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,15 +20,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="22" column="105" lean-forward="false" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facebook_square.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/icons/facebook_square.svg">
+      <file leaf-file-name="fb.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/icons/fb.svg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
@@ -191,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510951551878</updated>
-      <workItem from="1510951554195" duration="7656000" />
+      <workItem from="1510951554195" duration="7907000" />
     </task>
     <task id="LOCAL-00001" summary="added a vCard">
       <created>1510991041578</created>
@@ -218,7 +210,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7656000" />
+    <option name="totallyTimeSpent" value="7907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -273,7 +265,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/icons/facebook_square.svg">
+    <entry file="file://$PROJECT_DIR$/icons/fb.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
@@ -299,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="22" column="105" lean-forward="false" selection-start-line="22" selection-start-column="105" selection-end-line="22" selection-end-column="105" />
           <folding />
         </state>
       </provider>
