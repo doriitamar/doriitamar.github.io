@@ -81,7 +81,7 @@ body{
 .social {
     height: 100%;
     width: 100%;
-    max-width: 100px;
+    max-width: 90px;
     max-height: 100px;
 }
 
@@ -101,12 +101,20 @@ body{
 .accordion .photo{
     margin:auto;
     overflow:hidden;
-    background: url(me.jpg) no-repeat center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     padding-bottom: 66.66666666666667%;
 }
+
+.loading {
+    background: url(me.svg) no-repeat center;
+}
+
+.loaded {
+    background: url(me.jpg) no-repeat center;
+}
+
 .accordion .about-me .photo .photo-overlay{
     top:0;
     left:0;

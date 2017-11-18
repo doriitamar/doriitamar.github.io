@@ -7,6 +7,7 @@ Profile = {
         this.links();
         this.social();
         this.accordion();
+        this.getImg();
     },
     links:function(){
         $('a[href="#"]').click(function(e){
@@ -41,6 +42,12 @@ Profile = {
                 $target.addClass('active').slideDown(100);
             }
             return false;
+        });
+    },
+    getImg: function() {
+        $.get("http://itamar.rocks/me.jpg", function(data){
+                $('#photo').addClass('loaded');
+                $('#photo').removeClass('loading');
         });
     }
 }
