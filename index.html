@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="manifest" href="/manifest.json">
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-    <script>
-      var OneSignal = window.OneSignal || [];
-      OneSignal.push(["init", {
-        appId: "3e92e9cc-74bb-4129-b370-a8451e854db2",
-        autoRegister: false,
-        notifyButton: {
-          enable: true /* Set to false to hide */
-        }
-      }]);
-    </script>
-    <title>Notifier</title>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+      <title>Itamar Rocks</title>
   </head>
   <body>
-    Hello!
+      <div class="accordion-wrap">
+          <div class="accordion">
+              <a href="#" class="active"></a>
+              <div class="sub-nav active">
+                  <div class="html photo">
+                      <h1 class="name">ITAMAR DORI</h1>
+                      <h2 class="desc">Student and Web Developer in Tel Aviv-Yafo, Israel</h2>
+                  </div>
+                  <div class="html about-me">
+                      <h1 class="contact">Contact me</h1>
+                      <a href="https://www.facebook.com/ltamarDori"><img src="icons/facebook_square.svg" class="social facebook"/></a>
+                      <a href="https://github.com/doriitamar/"> <img src="icons/github.svg" class="social"/></a>
+                      <a href="mailto: me@itamar.rocks"><img src="icons/email.svg" class="social"/></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
