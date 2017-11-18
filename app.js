@@ -45,9 +45,10 @@ Profile = {
         });
     },
     getImg: function() {
-        $.get("http://itamar.rocks/me.jpg", function(data){
-                $('#photo').addClass('loaded');
-                $('#photo').removeClass('loading');
+        $('<img/>').attr('src', "http://itamar.rocks/me.jpg").on('load', function() {
+            $(this).remove();
+            $('#photo').addClass('loaded');
+            $('#photo').removeClass('loading');
         });
     }
 }
