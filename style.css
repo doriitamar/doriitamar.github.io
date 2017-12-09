@@ -112,7 +112,7 @@ body{
 }
 
 .loaded {
-    background: url(https://itamar.rocks/me.jpg) no-repeat center;
+    background: url(me.jpg) no-repeat center;
 }
 
 .accordion .about-me .photo .photo-overlay{
