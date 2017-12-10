@@ -45,7 +45,7 @@ Profile = {
         });
     },
     getImg: function() {
-        $('<img/>').attr('src', "http://itamar.rocks/me.jpg").on('load', function() {
+        $('<img/>').attr('src', "https://itamar.rocks/me.jpg").on('load', function() {
             $(this).remove();
             $('#photo').addClass('loaded');
             $('#photo').removeClass('loading');
